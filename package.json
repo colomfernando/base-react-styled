@@ -1,0 +1,19 @@
+{
+  "name": "base-react-styled",
+  "version": "1.0.0",
+  "description": "base proyect with react and styled component",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colomfernando/base-react-styled.git"
+  },
+  "author": "Fernando Colom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colomfernando/base-react-styled/issues"
+  },
+  "homepage": "https://github.com/colomfernando/base-react-styled#readme"
+}
