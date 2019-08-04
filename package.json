@@ -1,24 +1,32 @@
 {
-  "name": "base-react-styled",
-  "version": "1.0.0",
-  "description": "base proyect with react and styled component",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/colomfernando/base-react-styled.git"
-  },
-  "author": "Fernando Colom",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/colomfernando/base-react-styled/issues"
-  },
-  "homepage": "https://github.com/colomfernando/base-react-styled#readme",
-  "devDependencies": {
-    "webpack": "^4.39.1",
-    "webpack-cli": "^3.3.6",
-    "webpack-dev-server": "^3.7.2"
-  }
+	"name": "base-react-styled",
+	"version": "1.0.0",
+	"description": "base proyect with react and styled component",
+	"main": "index.js",
+	"scripts": {
+		"test": "test",
+		"start": "webpack-dev-server --config webpack.dev.js",
+		"build": "webpack --config webpack.prod.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/colomfernando/base-react-styled.git"
+	},
+	"author": "Fernando Colom",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/colomfernando/base-react-styled/issues"
+	},
+	"homepage": "https://github.com/colomfernando/base-react-styled#readme",
+	"devDependencies": {
+		"webpack": "^4.39.1",
+		"webpack-cli": "^3.3.6",
+		"webpack-dev-server": "^3.7.2"
+	},
+	"dependencies": {
+		"prop-types": "^15.7.2",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"styled-components": "^4.3.2"
+	}
 }
