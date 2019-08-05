@@ -1,6 +1,6 @@
 {
 	"name": "base-react-styled",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "base proyect with react and styled component",
 	"main": "index.js",
 	"scripts": {
